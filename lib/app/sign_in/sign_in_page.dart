@@ -8,32 +8,36 @@ class SignInPage extends StatelessWidget {
         title: Text('Tormoil Tracker'),
         elevation: 10.0,
       ),
-      body: Container(
-        color: Colors.cyan,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Container(
-              color: Colors.red,
-              child: SizedBox(
-                height: 100.0,
-              ),
-            ),
-            Container(
-              color: Colors.green,
-              child: SizedBox(
-                height: 100.0,
-              ),
-            ),
-            Container(
-              color: Colors.yellow,
-              child: SizedBox(
-                height: 100.0,
-              ),
-            ),
-          ],
-        ),
-      ),
+      body: buildContext(),
     );
   }
+}
+
+Widget buildContext() {
+  return Container(
+    color: Colors.cyan,
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+        Container(
+          color: Colors.red,
+          child: SizedBox(
+            height: 100.0,
+          ),
+        ),
+        Container(
+          color: Colors.green,
+          child: SizedBox(
+            height: 100.0,
+          ),
+        ),
+        Container(
+          color: Colors.yellow,
+          child: SizedBox(
+            height: 100.0,
+          ),
+        ),
+      ],
+    ),
+  );
 }

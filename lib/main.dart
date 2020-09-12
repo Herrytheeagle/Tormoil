@@ -1,3 +1,4 @@
+import 'package:Tormoil/app/sign_in/sign_in_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: Container(
-        color: Colors.cyan[50],
-      ),
+      home: SignInPage(),
     );
   }
 }

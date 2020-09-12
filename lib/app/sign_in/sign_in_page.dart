@@ -11,11 +11,11 @@ class SignInPage extends StatelessWidget {
       body: Container(
         color: Colors.cyan,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Container(
               color: Colors.black,
               child: SizedBox(
-                width: 100.0,
                 height: 100.0,
               ),
             )

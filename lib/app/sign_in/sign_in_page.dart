@@ -14,11 +14,23 @@ class SignInPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Container(
-              color: Colors.black,
+              color: Colors.red,
               child: SizedBox(
                 height: 100.0,
               ),
-            )
+            ),
+            Container(
+              color: Colors.green,
+              child: SizedBox(
+                height: 100.0,
+              ),
+            ),
+            Container(
+              color: Colors.yellow,
+              child: SizedBox(
+                height: 100.0,
+              ),
+            ),
           ],
         ),
       ),

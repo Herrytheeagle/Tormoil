@@ -6,25 +6,20 @@ class SignInPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Tormoil Tracker'),
-        elevation: 10.0,
+        elevation: 0.0,
       ),
-      body: buildContext(),
+      body: _buildContext(),
     );
   }
 }
 
-Widget buildContext() {
+Widget _buildContext() {
   return Container(
-    color: Colors.cyan,
+    color: Colors.cyan[100],
+    padding: EdgeInsets.all(16),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        Container(
-          color: Colors.red,
-          child: SizedBox(
-            height: 100.0,
-          ),
-        ),
         Container(
           color: Colors.green,
           child: SizedBox(
@@ -32,7 +27,13 @@ Widget buildContext() {
           ),
         ),
         Container(
-          color: Colors.yellow,
+          color: Colors.white,
+          child: SizedBox(
+            height: 100.0,
+          ),
+        ),
+        Container(
+          color: Colors.green,
           child: SizedBox(
             height: 100.0,
           ),

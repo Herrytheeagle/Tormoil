@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tormoil Tracker',
       theme: ThemeData(
-        primarySwatch: Colors.cyan,
+        primarySwatch: Colors.indigo,
       ),
       home: SignInPage(),
     );

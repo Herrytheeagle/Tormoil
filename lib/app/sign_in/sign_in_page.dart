@@ -14,24 +14,25 @@ class SignInPage extends StatelessWidget {
 }
 
 Widget _buildContext() {
-  return Container(
-    color: Colors.cyan[100],
+  return Padding(
     padding: EdgeInsets.all(16),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         Container(
-          color: Colors.green,
+          color: Colors.green[200],
           child: SizedBox(
             height: 100.0,
           ),
         ),
+        SizedBox(height: 8.0),
         Container(
-          color: Colors.white,
+          color: Colors.green[400],
           child: SizedBox(
             height: 100.0,
           ),
         ),
+        SizedBox(height: 8.0),
         Container(
           color: Colors.green,
           child: SizedBox(

@@ -20,7 +20,12 @@ Widget _buildContext() {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        Text("Sign In"),
+        Text("Sign In",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 32.0,
+              fontWeight: FontWeight.w500,
+            )),
         SizedBox(height: 8.0),
         Container(
           color: Colors.green[400],

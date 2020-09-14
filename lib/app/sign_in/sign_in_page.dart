@@ -1,3 +1,4 @@
+import 'package:Tormoil/common_widgets/custom_raised_button.dart';
 import 'package:flutter/material.dart';
 
 class SignInPage extends StatelessWidget {
@@ -43,6 +44,8 @@ Widget _buildContext() {
             print('button pressed');
           },
         ),
+        SizedBox(height: 8.0),
+        CustomRaisedButton(),
       ],
     ),
   );

@@ -11,19 +11,14 @@ class CustomRaisedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RaisedButton(
-      child: Text(
-        'Sign in with Google',
-        style: TextStyle(fontSize: 15.0, color: Colors.black87),
-      ),
-      color: Colors.white,
+      child: child,
+      color: color,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.all(
-          Radius.circular(12.0),
+          Radius.circular(borderRadius),
         ),
       ),
-      onPressed: () {
-        print('button pressed');
-      },
+      onPressed: onPressed,
     );
   }
 }

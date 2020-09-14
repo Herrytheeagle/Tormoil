@@ -9,6 +9,7 @@ class SignInPage extends StatelessWidget {
         elevation: 0.0,
       ),
       body: _buildContext(),
+      backgroundColor: Colors.blue[50],
     );
   }
 }
@@ -28,7 +29,10 @@ Widget _buildContext() {
             )),
         SizedBox(height: 8.0),
         RaisedButton(
-          child: Text('Sign in with Google'),
+          child: Text(
+            'Sign in with Google',
+            style: TextStyle(fontSize: 15.0, color: Colors.black87),
+          ),
           color: Colors.white,
           onPressed: () {
             print('button pressed');

@@ -34,6 +34,11 @@ Widget _buildContext() {
             style: TextStyle(fontSize: 15.0, color: Colors.black87),
           ),
           color: Colors.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(
+              Radius.circular(12.0),
+            ),
+          ),
           onPressed: () {
             print('button pressed');
           },

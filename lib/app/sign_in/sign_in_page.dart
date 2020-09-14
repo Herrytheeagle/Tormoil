@@ -25,7 +25,7 @@ Widget _buildContext() {
         Text("Sign In",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 32.0,
+              fontSize: 22.0,
               fontWeight: FontWeight.w500,
             )),
         SizedBox(height: 8.0),
@@ -45,7 +45,15 @@ Widget _buildContext() {
           },
         ),
         SizedBox(height: 8.0),
-        CustomRaisedButton(),
+        CustomRaisedButton(
+          child: Text(
+            'Sign in with Facebook',
+            style: TextStyle(fontSize: 15.0, color: Colors.black87),
+          ),
+          color: Colors.lightBlue,
+          borderRadius: 12.0,
+          onPressed: () {},
+        ),
       ],
     ),
   );

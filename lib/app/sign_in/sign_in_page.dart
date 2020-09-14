@@ -27,19 +27,10 @@ Widget _buildContext() {
               fontWeight: FontWeight.w500,
             )),
         SizedBox(height: 8.0),
-        Container(
-          color: Colors.green[400],
-          child: SizedBox(
-            height: 100.0,
-          ),
-        ),
-        SizedBox(height: 8.0),
-        Container(
-          color: Colors.green,
-          child: SizedBox(
-            height: 100.0,
-          ),
-        ),
+        RaisedButton(
+          child: Text('Sign in with Google'),
+          onPressed: () {},
+        )
       ],
     ),
   );

@@ -50,7 +50,7 @@ Widget _buildContext() {
             'Sign in with Facebook',
             style: TextStyle(fontSize: 15.0, color: Colors.black87),
           ),
-          color: Colors.lightBlue,
+          color: Color(0xFF334D92),
           borderRadius: 12.0,
           onPressed: () {},
         ),

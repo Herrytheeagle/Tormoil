@@ -48,6 +48,11 @@ Widget _buildContext() {
           textColor: Colors.white,
           color: Colors.tealAccent[700],
           onPressed: () {},
+        ),
+        SizedBox(height: 8.0,),
+        Text(
+          'or'
+          style: TextStyle(fontSize: 14.0, color: Colors.black87),
         )
       ],
     ),

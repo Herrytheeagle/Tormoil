@@ -38,9 +38,11 @@ Widget _buildContext() {
         ),
         SizedBox(height: 8.0),
         SignInButton(
-            text: 'Sign in with Facebook',
-            textColor: Colors.black87,
-            color: Colors.cyan)
+          text: 'Sign in with Facebook',
+          textColor: Colors.black87,
+          color: Colors.cyan,
+          onPressed: () {},
+        )
       ],
     ),
   );

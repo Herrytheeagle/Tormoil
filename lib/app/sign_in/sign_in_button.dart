@@ -11,6 +11,5 @@ class SignInButton extends CustomRaisedButton {
             child:
                 Text(text, style: TextStyle(color: textColor, fontSize: 15.0)),
             color: color,
-            height: 40.0,
             onPressed: onPressed);
 }

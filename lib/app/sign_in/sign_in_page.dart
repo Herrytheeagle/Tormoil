@@ -33,6 +33,8 @@ Widget _buildContext() {
         SignInButton(
           text: 'Sign In with Google',
           textColor: Colors.black87,
+          color: Colors.white,
+          onPressed: () {},
         ),
         RaisedButton(
           child: Text(

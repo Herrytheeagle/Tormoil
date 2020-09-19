@@ -1,6 +1,6 @@
 import 'package:Tormoil/common_widgets/custom_raised_button.dart';
 import 'package:flutter/material.dart';
-
+import 'package:Tormoil/app/sign_in/sign_in_button.dart';
 class SignInPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -29,6 +29,9 @@ Widget _buildContext() {
               fontWeight: FontWeight.w500,
             )),
         SizedBox(height: 8.0),
+        SignInButton(
+        text: 
+        ),
         RaisedButton(
           child: Text(
             'Sign in with Google',

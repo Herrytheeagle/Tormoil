@@ -1,4 +1,3 @@
-import 'package:Tormoil/common_widgets/custom_raised_button.dart';
 import 'package:flutter/material.dart';
 import 'package:Tormoil/app/sign_in/sign_in_button.dart';
 
@@ -39,8 +38,15 @@ Widget _buildContext() {
         SizedBox(height: 8.0),
         SignInButton(
           text: 'Sign in with Facebook',
-          textColor: Colors.black87,
+          textColor: Colors.white,
           color: Colors.cyan,
+          onPressed: () {},
+        ),
+        SizedBox(height: 8.0),
+        SignInButton(
+          text: 'Sign in with email',
+          textColor: Colors.white,
+          color: Colors.green,
           onPressed: () {},
         )
       ],

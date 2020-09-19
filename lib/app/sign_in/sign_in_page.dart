@@ -36,31 +36,6 @@ Widget _buildContext() {
           color: Colors.white,
           onPressed: () {},
         ),
-        RaisedButton(
-          child: Text(
-            'Sign in with Google',
-            style: TextStyle(fontSize: 15.0, color: Colors.black87),
-          ),
-          color: Colors.white,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.all(
-              Radius.circular(12.0),
-            ),
-          ),
-          onPressed: () {
-            print('button pressed');
-          },
-        ),
-        SizedBox(height: 8.0),
-        CustomRaisedButton(
-          child: Text(
-            'Sign in with Facebook',
-            style: TextStyle(fontSize: 15.0, color: Colors.black87),
-          ),
-          color: Color(0xFF334D92),
-          borderRadius: 12.0,
-          onPressed: () {},
-        ),
       ],
     ),
   );

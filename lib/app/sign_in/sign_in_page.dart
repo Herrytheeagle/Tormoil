@@ -46,7 +46,7 @@ Widget _buildContext() {
         SignInButton(
           text: 'Sign in with email',
           textColor: Colors.white,
-          color: Colors.green,
+          color: Colors.tealAccent[700],
           onPressed: () {},
         )
       ],

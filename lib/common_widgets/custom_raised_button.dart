@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 
 class CustomRaisedButton extends StatelessWidget {
   CustomRaisedButton(
-      {this.child, this.height, this.borderRadius, this.color, this.onPressed});
+      {this.child,
+      this.height: 50.0,
+      this.borderRadius: 2.0,
+      this.color,
+      this.onPressed});
   final Widget child;
   final Color color;
   final double borderRadius;
@@ -12,7 +16,7 @@ class CustomRaisedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 50.0,
+      height: height,
       child: RaisedButton(
         child: child,
         color: color,

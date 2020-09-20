@@ -44,7 +44,7 @@ Widget _buildContext() {
         ),
         SizedBox(height: 8.0),
         SignInButton(
-          text: 'Sign in with email',
+          text: 'Sign in with Email',
           textColor: Colors.white,
           color: Colors.tealAccent[700],
           onPressed: () {},
@@ -56,6 +56,15 @@ Widget _buildContext() {
           'or',
           textAlign: TextAlign.center,
           style: TextStyle(fontSize: 14.0, color: Colors.black87),
+        ),
+        SizedBox(
+          height: 8.0,
+        ),
+        SignInButton(
+          text: 'Go anonymous',
+          color: Colors.green,
+          textColor: Colors.teal,
+          onPressed: () {},
         )
       ],
     ),

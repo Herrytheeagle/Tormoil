@@ -63,7 +63,7 @@ Widget _buildContext() {
         SignInButton(
           text: 'Go anonymous',
           color: Colors.lime,
-          textColor: Colors.white,
+          textColor: Colors.black,
           onPressed: () {},
         )
       ],

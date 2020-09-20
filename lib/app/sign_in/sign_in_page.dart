@@ -54,6 +54,7 @@ Widget _buildContext() {
         ),
         Text(
           'or',
+          textAlign: TextAlign.center,
           style: TextStyle(fontSize: 14.0, color: Colors.black87),
         )
       ],

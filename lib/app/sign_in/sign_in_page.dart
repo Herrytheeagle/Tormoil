@@ -28,7 +28,7 @@ Widget _buildContext() {
               fontSize: 22.0,
               fontWeight: FontWeight.w500,
             )),
-        SizedBox(height: 8.0),
+        SizedBox(height: 50.0),
         SignInButton(
           text: 'Sign In with Google',
           textColor: Colors.black87,

@@ -10,7 +10,7 @@ class SignInPage extends StatelessWidget {
         elevation: 0.0,
       ),
       body: _buildContext(),
-      backgroundColor: Colors.blue[50],
+      backgroundColor: Colors.blue[100],
     );
   }
 }

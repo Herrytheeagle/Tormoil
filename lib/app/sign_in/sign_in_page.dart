@@ -65,7 +65,8 @@ Widget _buildContext() {
           color: Colors.lime[300],
           textColor: Colors.black,
           onPressed: () {},
-        )
+        ),
+        Image.asset('images/google-logo.png'),
       ],
     ),
   );

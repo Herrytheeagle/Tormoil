@@ -32,7 +32,10 @@ Widget _buildContext() {
         SizedBox(height: 50.0),
         CustomRaisedButton(
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
+              Image.asset('images/google-logo.png'),
+              Text('Eagle'),
               Image.asset('images/google-logo.png'),
             ],
           ),
@@ -41,11 +44,12 @@ Widget _buildContext() {
         ),
         SizedBox(height: 8.0),
         SignInButton(
-          child: Row(
-            children: <Widget>[
-              Image.asset('images/google-logo.png'),
-            ],
-          ),
+          // Row(
+          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          //children: <Widget>[
+          //  Image.asset('images/google-logo.png'),
+          // ],
+          //),
           text: 'Sign In with Google',
           textColor: Colors.black87,
           color: Colors.white,

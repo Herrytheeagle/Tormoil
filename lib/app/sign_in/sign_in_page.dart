@@ -66,7 +66,7 @@ Widget _buildContext() {
           textColor: Colors.black,
           onPressed: () {},
         ),
-        Image.asset('images/google-logo.png'),
+        CustomRaisedButton( child: Image.asset('images/google-logo.png'),
       ],
     ),
   );

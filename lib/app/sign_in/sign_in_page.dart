@@ -31,12 +31,21 @@ Widget _buildContext() {
             )),
         SizedBox(height: 50.0),
         CustomRaisedButton(
-          child: Image.asset('images/google-logo.png'),
+          child: Row(
+            children: <Widget>[
+              Image.asset('images/google-logo.png'),
+            ],
+          ),
           color: Colors.white,
           onPressed: () {},
         ),
         SizedBox(height: 8.0),
         SignInButton(
+          child: Row(
+            children: <Widget>[
+              Image.asset('images/google-logo.png'),
+            ],
+          ),
           text: 'Sign In with Google',
           textColor: Colors.black87,
           color: Colors.white,

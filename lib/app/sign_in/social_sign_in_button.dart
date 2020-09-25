@@ -1,8 +1,8 @@
 import 'package:Tormoil/common_widgets/custom_raised_button.dart';
 import 'package:flutter/material.dart';
 
-class SignInButton extends CustomRaisedButton {
-  SignInButton({
+class SocialSignInButton extends CustomRaisedButton {
+  SocialSignInButton({
     String text,
     Color color,
     Color textColor,

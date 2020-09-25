@@ -1,6 +1,7 @@
 import 'package:Tormoil/common_widgets/custom_raised_button.dart';
 import 'package:flutter/material.dart';
 import 'package:Tormoil/app/sign_in/sign_in_button.dart';
+import 'package:Tormoil/app/sign_in/social_sign_in_button.dart';
 
 class SignInPage extends StatelessWidget {
   @override
@@ -46,19 +47,15 @@ Widget _buildContext() {
           onPressed: () {},
         ),
         SizedBox(height: 8.0),
-        SignInButton(
-          // Row(
-          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          //children: <Widget>[
-          //  Image.asset('images/google-logo.png'),
-          // ],
-          //),
+        // First SignIn Button
+        SocialSignInButton(
           text: 'Sign In with Google',
           textColor: Colors.black87,
           color: Colors.white,
           onPressed: () {},
         ),
         SizedBox(height: 8.0),
+        // Second SignIn Button
         SignInButton(
           text: 'Sign in with Facebook',
           textColor: Colors.white,
@@ -66,6 +63,7 @@ Widget _buildContext() {
           onPressed: () {},
         ),
         SizedBox(height: 8.0),
+        // Third SignIn Button
         SignInButton(
           text: 'Sign in with Email',
           textColor: Colors.white,
@@ -83,6 +81,7 @@ Widget _buildContext() {
         SizedBox(
           height: 8.0,
         ),
+        //  Fourth  Button
         SignInButton(
           text: 'Go anonymous',
           color: Colors.lime[300],

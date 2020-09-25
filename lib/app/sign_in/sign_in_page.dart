@@ -30,6 +30,12 @@ Widget _buildContext() {
               fontWeight: FontWeight.w500,
             )),
         SizedBox(height: 50.0),
+        CustomRaisedButton(
+          child: Image.asset('images/google-logo.png'),
+          color: Colors.white,
+          onPressed: () {},
+        ),
+        SizedBox(height: 8.0),
         SignInButton(
           text: 'Sign In with Google',
           textColor: Colors.black87,
@@ -67,11 +73,6 @@ Widget _buildContext() {
           textColor: Colors.black,
           onPressed: () {},
         ),
-        CustomRaisedButton(
-          child: Image.asset('images/google-logo.png'),
-          color: Colors.white,
-          onPressed: () {},
-        )
       ],
     ),
   );

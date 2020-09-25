@@ -69,6 +69,8 @@ Widget _buildContext() {
         ),
         CustomRaisedButton(
           child: Image.asset('images/google-logo.png'),
+          color: Colors.white,
+          onPressed: () {},
         )
       ],
     ),

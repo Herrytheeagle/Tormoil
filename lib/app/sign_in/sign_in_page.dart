@@ -41,7 +41,8 @@ Widget _buildContext() {
         ),
         SizedBox(height: 8.0),
         // Second SignIn Button
-        SignInButton(
+        SocialSignInButton(
+          assetName: 'images/facebook-logo.png',
           text: 'Sign in with Facebook',
           textColor: Colors.white,
           color: Color(0xFF334D92),

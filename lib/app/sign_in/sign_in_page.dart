@@ -36,7 +36,10 @@ Widget _buildContext() {
             children: <Widget>[
               Image.asset('images/google-logo.png'),
               Text('Eagle'),
-              Image.asset('images/google-logo.png'),
+              Opacity(
+                opacity: 0.0,
+                child: Image.asset('images/google-logo.png'),
+              )
             ],
           ),
           color: Colors.white,

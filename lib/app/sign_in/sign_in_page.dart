@@ -31,24 +31,9 @@ Widget _buildContext() {
               fontWeight: FontWeight.w500,
             )),
         SizedBox(height: 50.0),
-        CustomRaisedButton(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Image.asset('images/google-logo.png'),
-              Text('Eagle'),
-              Opacity(
-                opacity: 0.0,
-                child: Image.asset('images/google-logo.png'),
-              )
-            ],
-          ),
-          color: Colors.white,
-          onPressed: () {},
-        ),
-        SizedBox(height: 8.0),
         // First SignIn Button
         SocialSignInButton(
+          assetName: 'images/google-logo.png',
           text: 'Sign In with Google',
           textColor: Colors.black87,
           color: Colors.white,
